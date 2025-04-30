@@ -17,19 +17,54 @@
 
 #print(f"O resultado da sua operação é:{result:.2f}")
 
-#n1 = float(input("Digite a primeira nota: ")
-#n2 = float(input("Digite a segunda nota: ")
 
+#exercicio 8
+
+
+#n1 = float(input("Digite a primeira nota: "))
+#n2 = float(input("Digite a segunda nota : "))
 #cal = (n1 + n2) / 2
 
+#arredondar = round(cal, 1)
+
+
+
 #if cal >= 6:
- #   print("O aluno está aprovado!")
+    #print(f"O aluno está aprovado! Sua média final foi: {cal:.3f}")
 #else:
-   # print("O aluno está reprovado!")
+   # print(f"O aluno está reprovado! Sua média final foi: {cal:3f}")
+
+#print(f"Sua nota arredondada é: {arredondar}")
 
 
 
 
+#exercicio 9
+
+
+n1 = float(input("Digite a primeira nota: "))
+n2 = float(input("Digite a segunda nota : "))
+cal = (n1 + n2) / 2
+
+arredondar = round(cal, 1)
+
+
+
+if cal >= 6:
+    print(f"O aluno está aprovado! Sua média final foi: {cal:.3f}")
+elif cal >= 4:
+    print(f"O aluno está de recuperação: Sua média final foi : {cal:.3f} ")
+else:
+   print(f"O aluno está reprovado! Sua média final foi: {cal:3f}")
+
+print(f"Sua nota arredondada é: {arredondar}")
+
+
+
+
+
+
+#EXERCICIOS DE WHILE
 
 #EXERCICIO 1
 #x=1
