@@ -1,7 +1,7 @@
 # CHECKPOINT 2 VINICIUS BATISTA E ARTHUR SANDES
 # Introdução:
 print("Bem vindo a calculadora de media semestral da FIAP!!")
-print("Por favor, digite suas notas, lembrando que são valores de 0 a 10!!")
+print("Lembrando que na calculadora, é aceito somente valores de 0 a 10!!")
 
 excluir = 0  # Seletora de exclusão do menor checkpoint
 media_sem1 = 0
@@ -10,13 +10,17 @@ chave = 0
 media_final = 0
 
 while chave != 2:
+    if chave == 0:
+        print("Por favor, digite as notas do Primeiro semestre")
+    else:
+        print("Por favor, digite as notas do Segundo semestre")
     # Variáveis
-    cp1 = float(input("Checkpoint 1 = "))
-    cp2 = float(input("Checkpoint 2 = "))
-    cp3 = float(input("Checkpoint 3 = "))
-    sp1 = float(input("Sprint 1 = "))
-    sp2 = float(input("Sprint 2 = "))
-    gs = float(input("Global Solution = "))
+    cp1 = float(input("Checkpoint 1 (0 a 10) = "))
+    cp2 = float(input("Checkpoint 2 (0 a 10) = "))
+    cp3 = float(input("Checkpoint 3 (0 a 10) = "))
+    sp1 = float(input("Sprint 1 (0 a 10) = "))
+    sp2 = float(input("Sprint 2 (0 a 10) = "))
+    gs = float(input("Global Solution (0 a 10) = "))
 
     # Exclusão da menor nota de checkpoint
     if cp1 < cp2 and cp1 < cp3:
